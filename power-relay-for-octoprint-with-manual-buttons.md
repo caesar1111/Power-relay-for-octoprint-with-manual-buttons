@@ -29,19 +29,28 @@ If you decide to connect your raspberry to the printers power cord.
 
 ### Hardware Assembly:
 The following picture shows the wiring of the relay and the push buttons with the GPIO of the pi:
+
 ![image](octoprint_relay_and_manual_push_button_wiring.jpg)
 The connection of the relay to the power cables depend you your specific setup. It is supposed to close the circuit when you activate the relay and open the circuit when you deactivate relay (or power-off the raspberry)
 
 **OPTIONAL:**
-Separate RS-25-5 power supply 
+Separate RS-25-5 power supply
+
 ![image](https://asset.re-in.de/isa/160267/c1/-/de/1297288_RB_00_FB/Mean-Well-AC-DC-Netzteilbaustein-geschlossen-RS-25-5-5-V-DC-5A-25W.jpg?x=225&y=225&ex=225&ey=225&align=center)
 [RS-25-5 schematics](https://media.it-tronics.de/Datasheets/Power_Supplies/MeanWell/RS-25.pdf)
+
 If you choose the optional setup with a separate RS-25-5 power supply allowing to use only the standard power cord of your printer, you need to connect the RS-25-5 to the power socket. (I am using the main power switch to power up the RS-25-5 which boots up the raspberry)
+
 ![image](https://i.ebayimg.com/images/g/fxwAAOSw6GJaCS3G/s-l300.jpg)
+
 Use a mirco USB power cable
+
 ![image](https://www.audiophonics.fr/20414-large_default/micro-usb-male-to-to-bare-wire-power-cable-raspberry-pi-22awg-20cm.jpg)
+
 or a standard micro-USB cable, clip off the USB plug end and wire the lines accordingly to the RA-25-5 5V end.
+
 ![image](https://never-stop-building-blog-production.s3.amazonaws.com/pictures/wiring-micro-usb-pinout/micro-usb-power-connector-wiring.png)
+
 and check the output current with a multimeter and tune at the RS-25-5 if required
 
 ### Preparing the ocptoprint raspberry software
