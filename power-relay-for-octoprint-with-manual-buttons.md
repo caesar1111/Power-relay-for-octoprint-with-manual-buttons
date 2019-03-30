@@ -49,7 +49,7 @@ Use a mirco USB power cable
 
 or a standard micro-USB cable, clip off the USB plug end and wire the lines accordingly to the RA-25-5 5V end.
 
-![image](https://never-stop-building-blog-production.s3.amazonaws.com/pictures/wiring-micro-usb-pinout/micro-usb-power-connector-wiring.png)
+![image](micro-usb-power-wiring.jpg)
 
 and check the output current with a multimeter and tune at the RS-25-5 if required
 
