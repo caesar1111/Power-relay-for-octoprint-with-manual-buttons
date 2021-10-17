@@ -71,6 +71,10 @@ enter before "exit 0" line
 `sudo python /home/pi/scripts/buttonoff.py &`
 `sudo python /home/pi/scripts/buttonshutdown.py &`
 Save the rc.local file [Ctrl+x] > `y` > [Enter]
+Allow all users to execute the scripts:
+
+`chmod +rwx /home/pi/scripts/*`
+
 Reboot the the pi.
 
 #### Checking scripts
