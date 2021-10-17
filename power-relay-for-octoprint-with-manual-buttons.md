@@ -73,7 +73,7 @@ enter before "exit 0" line
 Save the rc.local file [Ctrl+x] > `y` > [Enter]
 Allow all users to execute the scripts:
 
-`chmod +rwx /home/pi/scripts/*`
+`chmod 777 /home/pi/scripts/*`
 
 Reboot the the pi.
 
